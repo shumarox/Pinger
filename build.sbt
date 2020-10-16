@@ -2,6 +2,7 @@ name := "Pinger"
 version := "1.0.0"
 
 scalaVersion := "2.13.3"
+scalacOptions ++= Seq("-deprecation")
 
 crossPaths := false
 
